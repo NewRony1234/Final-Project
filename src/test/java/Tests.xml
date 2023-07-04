@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" >
+    <test name="Test">
+        <groups>
+            <run>
+                <include name="Test3"/>
+                <include name="Test2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="LogIn" />
+            <class name="PasswordReset"></class>
+            <class name="Logout"></class>
+            <class name="Register"></class>
+            <class name="CartItem"></class>
+
+        </classes>
+    </test>
+</suite>
